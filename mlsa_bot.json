@@ -1,0 +1,125 @@
+{
+  "luis_schema_version": "4.0.0",
+  "versionId": "1.0",
+  "name": "MlsaQABot",
+  "desc": "Q and A bot for Machine Learning Specialization (Mlsa)",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "BecomeMlsa"
+    },
+    {
+      "name": "LevelUpMlsa"
+    },
+    {
+      "name": "BenefitsMlsa"
+    },
+    {
+      "name": "ApplicationMlsa"
+    },
+    {
+      "name": "Greetings"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "good morning/afternoon/evening",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hey",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "thanks",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "bye",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "see you later",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how to become a Mlsa",
+      "intent": "BecomeMlsa",
+      "entities": []
+    },
+    {
+      "text": "what are the steps to become a Mlsa",
+      "intent": "BecomeMlsa",
+      "entities": []
+    },
+    {
+      "text": "how to level up my Mlsa skills",
+      "intent": "LevelUpMlsa",
+      "entities": []
+    },
+    {
+      "text": "tips to improve my Mlsa knowledge",
+      "intent": "LevelUpMlsa",
+      "entities": []
+    },
+    {
+      "text": "what are the benefits of being a Mlsa",
+      "intent": "BenefitsMlsa",
+      "entities": []
+    },
+    {
+      "text": "perks of having a Mlsa specialization",
+      "intent": "BenefitsMlsa",
+      "entities": []
+    },
+    {
+      "text": "when is the application deadline for Mlsa",
+      "intent": "ApplicationMlsa",
+      "entities": []
+    },
+    {
+      "text": "application window for Mlsa",
+      "intent": "ApplicationMlsa",
+      "entities": []
+    },
+    {
+      "text": "sorry",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "I don't understand",
+      "intent": "None",
+      "entities": []
+    }
+  ],
+  "settings": []
+}
